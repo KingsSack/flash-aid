@@ -38,7 +38,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
       <header className="mb-10 text-center">
         <div className="flex items-center justify-center mb-2">
           <ShieldAlert className="h-12 w-12 text-primary" />
