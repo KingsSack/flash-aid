@@ -12,6 +12,9 @@ export function MainNav() {
                 <NavigationMenuItem>
                     <NavigationMenuLink href="/posts">Posts</NavigationMenuLink>
                 </NavigationMenuItem>
+                <NavigationMenuItem>
+                    <NavigationMenuLink href="/login" style="margin-left: auto">log in or sign up</NavigationMenuLink>
+                </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu>
     )
