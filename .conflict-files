@@ -1,0 +1,3 @@
+ancestorEntries = ["src/app/posts/page.tsx"]
+ourEntries = ["src/app/posts/create/page.tsx", "src/app/posts/page.tsx"]
+theirEntries = ["src/app/posts/create/page.tsx", "src/app/posts/page.tsx"]

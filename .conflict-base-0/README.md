@@ -1,0 +1,3 @@
+# FlashAid
+
+Be prepared, instantly
