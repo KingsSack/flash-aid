@@ -1,4 +1,4 @@
-# **App Name**: Prepper Pal
+# **App Name**: FlashAid
 
 ## Core Features:
 
