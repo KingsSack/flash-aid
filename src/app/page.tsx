@@ -3,8 +3,8 @@
 import { useState } from "react";
 import type { GenerateEmergencyPlanOutput } from "@/ai/flows/generate-emergency-plan";
 import { generateEmergencyPlan } from "@/ai/flows/generate-emergency-plan";
-import { ScenarioForm, type ScenarioFormValues } from "@/components/prepper-pal/scenario-form";
-import { PlanDisplay } from "@/components/prepper-pal/plan-display";
+import { ScenarioForm, type ScenarioFormValues } from "@/components/flash-aid/scenario-form";
+import { PlanDisplay } from "@/components/flash-aid/plan-display";
 import { useToast } from "@/hooks/use-toast";
 import { ShieldAlert } from "lucide-react";
 
