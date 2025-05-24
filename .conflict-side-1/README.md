@@ -1,3 +1,0 @@
-# FlashAid
-
-Be prepared, instantly
