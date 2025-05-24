@@ -57,7 +57,7 @@ export default function HomePage() {
       </main>
 
       <footer className="mt-12 text-center text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} Flash Aid. Stay informed, stay safe.</p>
+        <p>&copy; {new Date().getFullYear()} Flash Aid. Be prepared, instantly.</p>
         <p className="text-sm mt-1">
           Emergency plans are for informational purposes. Always consult official local authorities.
         </p>
