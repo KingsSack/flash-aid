@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Prepper Pal - Your Emergency Planner',
+  title: 'Flash Aid - Your Emergency Planner',
   description: 'Generate emergency plans tailored to your scenario and location.',
 };
 

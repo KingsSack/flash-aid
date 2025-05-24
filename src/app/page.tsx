@@ -43,7 +43,7 @@ export default function HomePage() {
         <div className="flex items-center justify-center mb-2">
           <ShieldAlert className="h-12 w-12 text-primary" />
           <h1 className="text-5xl font-extrabold ml-3 text-foreground">
-            Prepper <span className="text-primary">Pal</span>
+            Flash <span className="text-primary">Aid</span>
           </h1>
         </div>
         <p className="mt-2 text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -57,7 +57,7 @@ export default function HomePage() {
       </main>
 
       <footer className="mt-12 text-center text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} Prepper Pal. Stay informed, stay safe.</p>
+        <p>&copy; {new Date().getFullYear()} Flash Aid. Stay informed, stay safe.</p>
         <p className="text-sm mt-1">
           Emergency plans are for informational purposes. Always consult official local authorities.
         </p>
