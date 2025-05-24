@@ -47,7 +47,7 @@ export default function HomePage() {
           </h1>
         </div>
         <p className="mt-2 text-xl text-muted-foreground max-w-2xl mx-auto">
-          Your AI-powered assistant for creating tailored emergency preparedness plans. Stay safe, be prepared.
+          Your AI-powered assistant for creating tailored emergency preparedness plans. Be prepared, instantly.
         </p>
       </header>
 
@@ -57,7 +57,7 @@ export default function HomePage() {
       </main>
 
       <footer className="mt-12 text-center text-muted-foreground">
-        <p>&copy; {new Date().getFullYear()} FlashAid. Stay informed, stay safe.</p>
+        <p>&copy; {new Date().getFullYear()} FlashAid. Be prepared, instantly.</p>
         <p className="text-sm mt-1">
           Emergency plans are for informational purposes. Always consult official local authorities.
         </p>
