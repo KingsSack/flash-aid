@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col items-center`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <header className="w-full max-w-3xl py-8 px-4 sm:px-6 lg:px-8">
+          <header className="flex w-full max-w-3xl py-8 px-4 sm:px-6 lg:px-8 justify-center">
             <MainNav />
           </header>
           {children}

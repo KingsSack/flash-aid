@@ -118,6 +118,7 @@ interface Post {
 }
 
 export default function PostsPage() {
+    const router = useRouter();
     const [posts, setPosts] = useState<Post[]>([]);
 
     useEffect(() => {
@@ -129,11 +130,16 @@ export default function PostsPage() {
     }, []);
 
     return (
-        <div>
-            <h1>Posts</h1>
-            <button>Create New Post</button>
+        <div className="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+            <header className="mb-10 text-center">
+                <div className="flex items-center justify-center mb-2">
+                    <h1 className="text-5xl font-extrabold ml-3 text-foreground">
+                        Posts
+                    </h1>
+                </div>
+            </header>
+            <Button onClick={() => router.push('/posts/create')}>Create New Post</Button>
 
-            <h2>All Posts</h2>
             <ul>
                 {posts.map(post => (
                     <li key={post.id}>{post.title}</li>

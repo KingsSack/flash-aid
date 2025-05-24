@@ -130,7 +130,7 @@ export default function PostsPage() {
     }, []);
 
     return (
-        <div className="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-3xl min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
             <header className="mb-10 text-center">
                 <div className="flex items-center justify-center mb-2">
                     <h1 className="text-5xl font-extrabold ml-3 text-foreground">
@@ -138,7 +138,7 @@ export default function PostsPage() {
                     </h1>
                 </div>
             </header>
-            <Button onClick={() => router.push('/posts/create')}>Create New Post</Button>
+            <Button className="w-full" onClick={() => router.push('/posts/create')}>Create New Post</Button>
 
             <ul>
                 {posts.map(post => (

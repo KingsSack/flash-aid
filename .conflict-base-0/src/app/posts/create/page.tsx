@@ -39,7 +39,7 @@ export default function PostCreationPage() {
     };
 
     return (
-        <div className="w-full max-w-3xl min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
             <header className="mb-10 text-center">
                 <div className="flex items-center justify-center mb-2">
                     <h1 className="text-5xl font-extrabold ml-3 text-foreground">
