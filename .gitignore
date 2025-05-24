@@ -1,6 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+package-lock.json
 /node_modules
 /.pnp
 .pnp.*
@@ -43,7 +44,6 @@ next-env.d.ts
 # firebase
 firebase-debug.log
 firestore-debug.log
-node_modules
 
 # drizzle and database
 drizzle/
