@@ -20,10 +20,12 @@ export default function LoginPage() {
       <main className="w-full max-w-3xl">
         <Form>
           <Label>Email</Label>
-          <Input type="text" />
+          <Input type="text"
+          name="email"/>
           <Label>Password</Label>
-          <Input type="text" />
-          <Button type="submit" className="w-full text-lg py-6" onClick={()=>{
+          <Input type="password"
+        name="password"/>
+          <Button className="w-full text-lg py-6" onClick={()=>{
             // add user to database
             window.location.href = "/"; // redirect to home page after login
           }}>Submit</Button>
