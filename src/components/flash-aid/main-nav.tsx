@@ -13,7 +13,7 @@ export function MainNav() {
                     <NavigationMenuLink href="/posts">Posts</NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuLink href="/login" style="margin-left: auto">Log In/Sign Up</NavigationMenuLink>
+                    <NavigationMenuLink href="/login">Log In/Sign Up</NavigationMenuLink>
                 </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu>
