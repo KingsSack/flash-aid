@@ -31,7 +31,7 @@ export default function LoginPage() {
       const data = await response.json();
       console.log("User created", data);
 
-      router.push("/");
+      window.location.href = "/";
     } catch (error) {
       console.error("Error creating user:", error);
       setError(
