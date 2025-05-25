@@ -41,7 +41,7 @@ export function LoginForm({ onSubmit, isLoading }: LoginFormProps) {
   });
 
   return (
-    <Card className="w-full shadow-lg">
+    <Card className="w-full shadow-lg pt-6">
       <CardContent>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">

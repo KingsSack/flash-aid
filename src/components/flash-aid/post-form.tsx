@@ -122,7 +122,7 @@ export function PostForm({ onSubmit, isLoading, initialData }: PostFormProps) {
       : undefined;
 
   return (
-    <Card className="w-full max-w-2xl shadow-lg"> {/* Increased max-width for map */}
+    <Card className="w-full shadow-lg"> {/* Increased max-width for map */}
       <CardContent className="pt-6"> {/* Added padding-top */}
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
